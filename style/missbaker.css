@@ -1,0 +1,73 @@
+html {
+  color: white;
+  background-image: url("../media/diagmonds.png");
+  /* Background pattern from subtlepatterns.com */
+  font-family: 'Rokkitt', serif;
+}
+main {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+p::first-letter {
+  margin-left: 2em;
+  font-size: 1.7em;
+}
+p {
+  font-size: 14pt;
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Comfortaa', sans-serif;
+  margin-bottom: 0;
+  margin-top: 0.5px;
+  text-shadow: 3px 3px gray;
+}
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 20pt;
+  text-shadow: 2px 2px gray;
+  margin-top: 0.25em;
+  margin-bottom: 0.75em;
+}
+a {
+  color: yellow;
+}
+figure {
+  clear: both;
+}
+figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-left: 12%;
+  margin-right: 12%;
+  color: lightgray;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 0.1px;
+}
+section footer {
+  margin-left: 6em;
+}
+div {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  margin-top: 5em;
+  text-shadow: 2px 2px;
+}
+footer p {
+  text-align: center;
+}
+small p {
+  font-size: 1.1em;
+}
